@@ -10,13 +10,18 @@ import App from "./Pages/Container_body/App";
 import ErroPage from './Pages/ErroPage/ErroPage';
 
 // todo: Rotas
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErroPage />,
+    },
+  ],
   {
-    path: "/",
-    element: <App/>,
-    errorElement: <ErroPage/>
+    basename: "/The_Power_Body/", 
   }
-])
+);
 
 
 // todo: Configuraçoes finais
