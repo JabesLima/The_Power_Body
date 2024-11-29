@@ -18,11 +18,19 @@
 
 .imagems-Personais div{
     display: flex;
-    padding: 10px;
+    margin-top: 15px;
+}
+.imagems-Personais div .Infors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .imagems-Personais div img{
-    width: 40%;
+    width: 230px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .imagems-Personais > div:nth-child(odd){
@@ -58,6 +66,7 @@
     color: white;
     font-size: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -81,10 +90,6 @@
     .imagems-Personais div{
         width: 100%;
         padding: 2px;
-    }
-    .imagems-Personais div img{
-        width: 50%;
-
     }
     .imagems-Personais div .Infors{
         
@@ -121,5 +126,9 @@
     }
     .Coachs h1{
         font-size: 20px;
+    }
+
+    .imagems-Personais div img{
+        width: 180px;
     }
 }

@@ -1,8 +1,9 @@
-.Home{
+.Home {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/HomeFT/Inicial.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; 
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,6 +12,7 @@
     color: white;
     text-align: center;
 }
+
 
 .Home h1 {
     width: 50%;
@@ -41,7 +43,7 @@
 
 @media (max-width: 750px){
     .Home{
-        height: 60vh;
+        height: 80vh;
     }
 
 

@@ -14,7 +14,7 @@
 .Imagems div{
     position: relative;
     box-sizing: border-box;
-    transition: transform 0.3s ease;
+    transition: all 0.5s ease-in-out;
 }
 
 .Imagems div img{
@@ -61,6 +61,7 @@
         border-top: none;
 
     }
+    
     .Imagems div .fab {
         opacity: 0; 
     }

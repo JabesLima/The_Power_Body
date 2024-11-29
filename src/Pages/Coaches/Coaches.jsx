@@ -30,6 +30,7 @@ export default function Coaches(){
                         </div>
                     </section>
                 </div>
+ 
             </div>
         </div>
     )
