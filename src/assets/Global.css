@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee+Spice&family=Nabla&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+
+body{
+    background-color: #1b1e26;
+    color: white;
+}

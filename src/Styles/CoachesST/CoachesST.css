@@ -1,0 +1,125 @@
+.Coachs{
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.imagems-Personais{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: 5px;
+    max-width: 1400px;
+    margin-top: 50px;
+    
+}
+
+.imagems-Personais div{
+    display: flex;
+    padding: 10px;
+}
+
+.imagems-Personais div img{
+    width: 40%;
+}
+
+.imagems-Personais > div:nth-child(odd){
+    background-color: #111316;
+}
+.imagems-Personais > div:nth-child(even){
+    background-color: #1113167a;
+}
+
+.imagems-Personais div .Infors{
+    padding: 0;
+    h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    p{
+        text-align: justify;
+        padding: 20px;
+        font-size: 15px;
+        letter-spacing: 0;
+        word-spacing: 0;  
+        line-height: 1.5;
+        font-size: clamp(10px, 1.4vw, 20px);
+    }
+}
+
+.icones_Atletas{
+    padding-left: 10px;
+}
+
+.icones_Atletas a{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.icones_Atletas a i{
+    border-radius: 30px;
+    border: 3px solid white;
+    padding: 10px; 
+}
+
+.icones_Atletas a i:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+@media (max-width: 850px){
+    .imagems-Personais{
+        display: block;
+    }
+    .imagems-Personais div{
+        width: 100%;
+        padding: 2px;
+    }
+    .imagems-Personais div img{
+        width: 50%;
+
+    }
+    .imagems-Personais div .Infors{
+        
+        p{
+            font-size: clamp(10px, 2vw, 20px);
+        }
+    }
+}
+
+
+@media (max-width: 400px){
+
+    .imagems-Personais div .Infors{
+        h1{
+            font-size: 13px;
+            padding: 10px;
+        }
+        p{
+            font-size: 7px;
+        }
+    }
+
+    .icones_Atletas{
+        padding-bottom: 20px;
+    }
+
+    .icones_Atletas a{
+        font-size: 10px;
+    }
+    .icones_Atletas a i{
+        border-radius: 30px;
+        border: 1px solid white;
+        padding: 6px; 
+    }
+    .Coachs h1{
+        font-size: 20px;
+    }
+}

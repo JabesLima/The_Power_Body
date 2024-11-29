@@ -1,0 +1,82 @@
+.Home{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/HomeFT/Inicial.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.Home h1 {
+    width: 50%;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+    line-height: 1.2;
+    border-top: 3px solid white;
+}
+
+.Home h1 strong {
+    font-size: 50px;
+    color: rgb(255, 69, 69); 
+    display: block;
+}
+
+.Home p {
+    width: 80%;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9); 
+    text-align: justify;
+}
+
+
+
+@media (max-width: 750px){
+    .Home{
+        height: 60vh;
+    }
+
+
+    .Home h1{
+        width: 70%;
+        font-size: 30px;
+        margin-top: -50px;
+    }
+    .Home h1 strong{
+        font-size: 40px;
+    }
+
+    .Home p{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .Home{
+        height: 70vh;
+    }
+
+
+    .Home h1{
+        width: 90%;
+        font-size: 20px;
+        margin-top: -50px;
+    }
+    .Home h1 strong{
+        font-size: 30px;
+    }
+
+    .Home p{
+        width: 90%;
+        font-size: 10px;
+    }
+}   

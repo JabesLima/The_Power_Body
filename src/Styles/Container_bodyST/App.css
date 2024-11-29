@@ -1,0 +1,12 @@
+.Container_Principal{
+    max-width: 1500px;
+    width: 98%;
+    margin: auto;
+    background-color: #17191f;
+}
+
+@media (max-width: 750px){
+    .Container_Principal{
+        width: 100%;
+    }
+}

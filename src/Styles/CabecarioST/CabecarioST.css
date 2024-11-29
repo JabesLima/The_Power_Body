@@ -1,0 +1,35 @@
+.Cabecario{
+    width: 100%;
+    background-color: rgba(29, 23, 23, 0.171);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.Cabecario h1{
+    padding: 20px;
+}
+
+
+.Cabecario img{
+    width: 40px;
+}
+
+
+@media (max-width: 700px){
+    .Cabecario h1{
+        font-size: 25px;
+    }
+    .Cabecario img{
+        width: 34px;
+    }
+}
+
+@media (max-width: 400px){
+    .Cabecario h1{
+        font-size: 16px;
+    }
+    .Cabecario img{
+        width: 20px;
+    }
+}
